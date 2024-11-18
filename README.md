@@ -9,5 +9,11 @@ No me tomó la verdad taaanto tiempo hacerlo, pero saber que iba a tener que vol
 
 Ademas queria hacerlo facil de usar, sin tener que exportar el archivo o la columna como csv, por lo que un input donde copiar y pegar el contenido de las celdas se haga facil e intuitivo. 
 
+--------------
 Lo que resta por hacer es pasarlo a alguna plataforma como StremIt para poder acceder al programa desde cualquier navegador y poder hacer el copy paste en el input y que analice el texto y diga cuantas atenciones virtuales y presenciales se realizaron en ese texto.
+
+--------------------------
+Futuras lineas de desarrollo:
+-Plantear los tokens en regular expresions  para poder unificar lo que seria "se presenta" "se presentó" "se presentsfsd" por ejemplo.
+-Usar el archivo deonde a mano hice la cuenta de cuantas atenciones virtuales y presenciales como train set para entrenar un modelo, luego que no haya que poner las palabras clave, sino que le algoritmo aprenda cuelse son las que refieren a atencion virtual y presencial... algo como el sentimenta analysis pero de "attention analysis" llamemosle
 
