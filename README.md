@@ -15,6 +15,7 @@ Lo que resta por hacer es pasarlo a alguna plataforma como StremIt para poder ac
 
 --------------------------
 Futuras lineas de desarrollo:
--Plantear los tokens en regular expresions, lemmatizacion o stemateizacion,  para poder unificar lo que seria "se presenta" "se presentó" "se presentsfsd" por ejemplo.
--Usar el archivo deonde a mano hice la cuenta de cuantas atenciones virtuales y presenciales como train set para entrenar un modelo, luego que no haya que poner las palabras clave, sino que le algoritmo aprenda cuelse son las que refieren a atencion virtual y presencial... algo como el sentimenta analysis pero de "attention analysis" llamemosle
+- Preprocesamiento: plantear los tokens de cada observacion, en regular expresions, lemmatizacion o stemateizacion, o postag (verbos), para poder unificar lo que seria "se presenta", "se presentó", "se presentsfsd", por ejemplo.
+- Usar logistic regression con como train set: archivos donde yo a mano fui contando en columnas de "Virtuales" y "Presenciales" segun lo que decía la Observación.
+
 
