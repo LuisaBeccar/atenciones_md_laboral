@@ -1,6 +1,6 @@
 streamlit 
 pandas 
 matplotlib 
-spacy 
+spacy==3.4.0 
 scikit-learn
 spacy download es_core_news_sm
