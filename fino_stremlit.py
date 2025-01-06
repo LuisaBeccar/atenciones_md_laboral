@@ -176,5 +176,3 @@ if st.button("Calcular Atenciones Prolongadas"):
     plt.grid(True, axis="y")
     plt.legend()
     st.pyplot(plt)
-
-streamlit run app.py
