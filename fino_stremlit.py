@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer
 import spacy 
 
