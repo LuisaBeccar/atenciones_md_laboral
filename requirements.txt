@@ -3,3 +3,4 @@ pandas
 matplotlib 
 spacy 
 scikit-learn
+python -m spacy download es_core_news_sm
