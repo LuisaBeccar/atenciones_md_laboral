@@ -2,9 +2,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib as plt
 from sklearn.feature_extraction.text import CountVectorizer
-import spacy
+import spacy 
 
 # Cargar el modelo de spacy para español
 sp = spacy.load('es_core_news_sm')
@@ -112,15 +112,16 @@ def contar_atenciones_prolongadas(prolongados):
 
 
 # Interfaz de Streamlit
-st.title("Análisis de Atenciones Médicas - Medicina Ocupacional")
+st.title("Análisis de Atenciones - Medicina Ocupacional - Vision Medica en Sanatorio Finochietto")
 
 # Pestaña 1: Atenciones Mensuales
 st.header("Atenciones Mensuales")
 
 # Inputs para observaciones mensuales
 periodos = {}
-for mes in ["ene_feb_24", "feb_mar_24", "mar_abr_24", "abr_may_24", "may_jun_24", "jun_jul_24",
-            "jul_ago_24", "ago_sept_24", "sept_oct_24", "oct_nov_24", "nov_dic_24"]:
+for mes in ["Enero-Febrero 2024", "Febrero-Marzo 2024", "Marzo-Abril 2024", "Abril-Mayo 2024", "Mayo-Junio 2024", "Junio-Julio 2024",
+            "Julio-Agosto 2024", "Agosto-Septiembre 2024", "Septiembre Octubre 2024", "Octubre-Noviembre 2024", "Noviembre-Diciembre 2024", 
+            "Diciembre 2024 - Enero 2025", "Enero-Febrero 2025", "Febrero-Marzo 2025" ]:
     periodos[mes] = st.text_area(f"Observaciones para {mes}", "")
 
 # Botón para calcular las atenciones
