@@ -1,5 +1,5 @@
 streamlit 
 pandas 
 matplotlib 
-spacy==3.4.0 
+spacy
 scikit-learn
