@@ -1,10 +1,5 @@
-pip install streamlit
-pip install pandas
-pip install matplotlib
+
 streamlit run fino_stremlit.py
-python -m spacy download es_core_news_sm
-
-
 import streamlit as st
 import pandas as pd
 import numpy as np
