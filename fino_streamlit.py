@@ -8,7 +8,10 @@ import spacy
 
 
 # Cargar el modelo de spacy para español
-sp = spacy.load('es_core_news_sm')
+from pathlib import Path
+model_path = Path("/home/adminuser/venv/lib/python3.12/site-packages/es_core_news_sm")
+sp = spacy.load(model_path)
+#sp = spacy.load('es_core_news_sm')
 
 # Configurar el vectorizador con stopwords en español
 from spacy.lang.es import stop_words as es_stop_words
