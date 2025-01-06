@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer
 import spacy 
 
+
 # Cargar el modelo de spacy para español
 sp = spacy.load('es_core_news_sm')
 
