@@ -1,8 +1,7 @@
 pip install streamlit
 pip install pandas
 pip install matplotlib
-pip install spacy
-pip install scikit-learn
+streamlit run fino_stremlit.py
 python -m spacy download es_core_news_sm
 
 
