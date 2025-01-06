@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1J9Opw_YkwLejb5Rurwepi90KNUztl1bF
 """
 
-pip install streamlit pandas matplotlib spacy scikit-learn
 
 import streamlit as st
 import pandas as pd
