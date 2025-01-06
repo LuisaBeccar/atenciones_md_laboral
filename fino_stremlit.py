@@ -1,3 +1,10 @@
+pip install streamlit
+pip install pandas
+pip install matplotlib
+pip install spacy
+pip install scikit-learn
+python -m spacy download es_core_news_sm
+
 
 import streamlit as st
 import pandas as pd
