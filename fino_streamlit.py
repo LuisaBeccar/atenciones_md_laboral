@@ -6,9 +6,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 import spacy 
 
 # Cargar el modelo de spacy para español
-from pathlib import Path
-model_path = Path("/home/adminuser/venv/lib/python3.12/site-packages/es_core_news_sm")
-sp = spacy.load(model_path)
 #sp = spacy.load('es_core_news_sm')
 
 # Configurar el vectorizador con stopwords en español
