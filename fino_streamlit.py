@@ -162,7 +162,8 @@ st.markdown(
     """
     <div style="text-align: center;">
         <h1>Atenciones de Medicina Ocupacional</h1>
-        <h3 style="font-size: 22px;">Vision Medica en Sanatorio Finochietto</h3>
+        <h3 style="font-size: 26px;">Vision Medica en Sanatorio Finochietto</h3>
+        <h3 style="font-size: 26px;"> __________</h3>
     </div>
     """,
     unsafe_allow_html=True
@@ -180,7 +181,7 @@ st.write("""
     En las atenciones prolongadas se utiliza solo una celda para todas las atenciones sin separar por períodos.
 """)
     
-# Pestaña 1: Atenciones Mensuales
+# Atenciones Mensuales
 st.header("Atenciones Mensuales")
 
 # Inputs para observaciones mensuales
@@ -191,7 +192,7 @@ for mes in ["Enero-Febrero 2024", "Febrero-Marzo 2024", "Marzo-Abril 2024", "Abr
     periodos[mes] = st.text_area(f"Observaciones para {mes}", "")
 
 # Botón para calcular las atenciones
-if st.button("Calcular Atenciones"):
+if st.button("Calcular Atenciones Mensuales"):
     tabla0 = contar_atenciones(periodos)
     st.write(tabla0)
 
@@ -210,7 +211,15 @@ if st.button("Calcular Atenciones"):
     plt.legend()
     st.pyplot(plt)
 
-# Pestaña 2: Resumen Prolongados
+t.markdown(
+    """
+    <div style="text-align: center;">
+        <h1>________________________________</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+
+# Atenciones Prolongados
 st.header("Atenciones Prolongadas")
 
 # Input para observaciones de atenciones prolongadas
