@@ -161,8 +161,8 @@ def contar_atenciones_prolongadas(prolongados):
 st.markdown(
     """
     <div style="text-align: center;">
-        <h1 style="font-size: 23px;">>Análisis de Atenciones de Medicina Ocupacional</h1>
-        <h3 style="font-size: 21px;">Vision Medica en Sanatorio Finochietto</h3>
+        <h1 style="font-size: 23px;">Atenciones de Medicina Ocupacional</h1>
+        <h3 style="font-size: 22px;">Vision Medica en Sanatorio Finochietto</h3>
     </div>
     """,
     unsafe_allow_html=True
