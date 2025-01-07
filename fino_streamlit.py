@@ -162,7 +162,7 @@ st.markdown(
     """
     <div style="text-align: center;">
         <h1>Atenciones de Medicina Ocupacional</h1>
-        <h1 style="font-size: 24px;">Vision Medica en Sanatorio Finochietto</h1>
+        <h1 style="font-size: 30px;">Visión Médica en el Sanatorio Finochietto</h1>
         <h3 style="font-size: 26px;"> __________</h3>
     </div>
     """,
@@ -170,14 +170,16 @@ st.markdown(
 )
 st.write("""
     Este informe presenta un análisis detallado de las atenciones realizadas en el departamento de medicina ocupacional 
-    del Sanatorio Finochietto. Se quiere saber cuántas intervenciones por medio virtual (mail y llamadas) y presenciales 
+    del Sanatorio Finochietto. Se quiere saber cuántas intervenciones por medio virtual (mail y llamadas) y presencial 
     se han realizado en cada período.
 
-    Para usar la app, copiar la columna de observaciones de la planilla y pegarla en la celda del período de tiempo correspondiente. 
-    Luego pulsar Ctrl+Enter. (En caso de que no se encuentre el período a evaluar, comunicarse con el soporte: Dra Beccar Varela.)
-
-    Al terminar de cargar los períodos que se desean evaluar, presionar el botón "Calcular Atenciones". 
+    Para utilizar la app: 
+    1) Copiar la columna de observaciones de la planilla excel y pegarla en la celda del período de tiempo correspondiente. 
+    2) Luego pulsar Ctrl+Enter. 
+    (En caso de que no se encuentre el período a evaluar, comunicarse con el soporte: Dra Beccar Varela).
+    3) Al terminar de cargar todos los períodos que se desean evaluar, presionar el botón "Calcular Atenciones". 
     Debajo se mostrará una tabla y un gráfico con las atenciones por período. 
+    
     En las atenciones prolongadas se utiliza solo una celda para todas las atenciones sin separar por períodos.
 """)
     
