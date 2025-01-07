@@ -167,7 +167,20 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+st.markdown(
+    """
+    <div style="text-align: justify; font-size: 16px; margin-top: 20px;">
+        Este informe presenta un análisis detallado de las atenciones realizadas en el departamento de medicina ocupacional 
+        del Sanatorio Finochietto. Se quiere saber cuantas intervenciones por medio virtual (mail y llamadas) y presenciales 
+        se han realizado en cada período.
+        Para usar la app, copiar la columna de observaciones de la planilla y pegarla en la celda del período de tiempo correspondiente. 
+        Luego pulsar Ctrl+Enter. (En caso de que no se encuentre el período a evaluar, comunicarse con el soporte: Dra Beccar Varela.)
+        Al terminar de cargar los períodos que se desean evaluar, presionar el boton "Calcular Atenciones". 
+        Debajo se mostrrá una tabla y un gráfico con las atenciones por período.
+        En las atenciones prolongadas se utiliza solo una celda para todas las atenciones sin separar por períodos. 
+    </div>
+    """,
+    unsafe_allow_html=True
 # Pestaña 1: Atenciones Mensuales
 st.header("Atenciones Mensuales")
 
