@@ -162,7 +162,7 @@ st.markdown(
     """
     <div style="text-align: center;">
         <h1>Atenciones de Medicina Ocupacional</h1>
-        <h3 style="font-size: 26px;">Vision Medica en Sanatorio Finochietto</h3>
+        <h1 style="font-size: 24px;">Vision Medica en Sanatorio Finochietto</h1>
         <h3 style="font-size: 26px;"> __________</h3>
     </div>
     """,
