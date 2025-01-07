@@ -217,8 +217,7 @@ t.markdown(
         <h1>________________________________</h1>
     </div>
     """,
-    unsafe_allow_html=True
-)
+    unsafe_allow_html=True)
 
 # Atenciones Prolongados
 st.header("Atenciones Prolongadas")
