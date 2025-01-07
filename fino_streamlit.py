@@ -114,12 +114,35 @@ def contar_atenciones_prolongadas(prolongados):
 
         # Contar atenciones virtuales
         virtuales2 = (data2.query('index == "recibo certificado"').sum().iloc[0] +
-                      data2.query('index == "se recibe"').sum().iloc[0] +
-                      data2.query('index == "envia certif"').sum().iloc[0])
-
+               data2.query('index == "recibo certificados"').sum().iloc[0] +
+               data2.query('index == "recibo certif"').sum().iloc[0] +
+               data2.query('index == "recibo email"').sum().iloc[0] +
+               data2.query('index == "recibo mail"').sum().iloc[0] +
+               data2.query('index == "se recibe"').sum().iloc[0] +
+               data2.query('index == "recibo aviso"').sum().iloc[0] +
+               data2.query('index == "sector avisa"').sum().iloc[0] +
+               data2.query('index == "envia certif"').sum().iloc[0] +
+               data2.query('index == "envia certificado"').sum().iloc[0] +
+               data2.query('index == "envia certificados"').sum().iloc[0] +
+               data2.query('index == "envia constancia"').sum().iloc[0]+
+               data2.query('index == "envia mail"').sum().iloc[0]+
+               data2.query('index == "envia email"').sum().iloc[0]+
+               data2.query('index == "se comunica"').sum().iloc[0] +
+               data2.query('index == "sector informa"').sum().iloc[0]  +
+               data2.query('index == "me comunico"').sum().iloc[0] +
+               data2.query('index == "se comunica"').sum().iloc[0] +
+               data1.query('index == "llamo"').sum().iloc[0] +
+               data1.query('index == "llama"').sum().iloc[0] +
+               data2.query('index == "intento comunicarme"').sum().iloc[0]
+              )
         # Contar atenciones presenciales
         presenciales2 = (data1.query('index == "concurre"').sum().iloc[0] +
-                         data2.query('index == "se presenta"').sum().iloc[0])
+                  data1.query('index == "concurrio"').sum().iloc[0] +
+                  data1.query('index == "acude"').sum().iloc[0] +
+                  data1.query('index == "acudió"').sum().iloc[0] +
+                  data2.query('index == "se presenta"').sum().iloc[0]+
+                  data2.query('index == "se presentó"').sum().iloc[0]+
+                  data1.query('index == "aporta"').sum().iloc[0])
 
         # Guardar resultados
         virt2.append(virtuales2)
@@ -138,8 +161,8 @@ def contar_atenciones_prolongadas(prolongados):
 st.markdown(
     """
     <div style="text-align: center;">
-        <h1>Análisis de Atenciones de Medicina Ocupacional</h1>
-        <h3 style="font-size: 22px;">Vision Medica en Sanatorio Finochietto</h3>
+        <h1 style="font-size: 23px;">>Análisis de Atenciones de Medicina Ocupacional</h1>
+        <h3 style="font-size: 21px;">Vision Medica en Sanatorio Finochietto</h3>
     </div>
     """,
     unsafe_allow_html=True
