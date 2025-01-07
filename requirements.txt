@@ -3,4 +3,3 @@ pandas
 matplotlib 
 spacy
 scikit-learn
-es-core-news-sm==3.5.0
