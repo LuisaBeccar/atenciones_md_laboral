@@ -1,11 +1,9 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer
 import spacy 
-
 
 # Cargar el modelo de spacy para español
 from pathlib import Path
