@@ -42,7 +42,7 @@ def contar_atenciones(periodos):
                              columns=['freq']).sort_values('freq', ascending=False)
 
         # Contar atenciones virtuales
-          virtuales = (data2.query('index == "recibo certificado"').sum().iloc[0] +
+        virtuales = (data2.query('index == "recibo certificado"').sum().iloc[0] +
                        data2.query('index == "recibo certificados"').sum().iloc[0] +
                        data2.query('index == "recibo certif"').sum().iloc[0] +
                        data2.query('index == "recibo email"').sum().iloc[0] +
