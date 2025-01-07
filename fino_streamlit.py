@@ -211,13 +211,7 @@ if st.button("Calcular Atenciones Mensuales"):
     plt.legend()
     st.pyplot(plt)
 
-t.markdown(
-    """
-    <div style="text-align: center;">
-        <h1>________________________________</h1>
-    </div>
-    """,
-    unsafe_allow_html=True)
+st.write("__________________________________")
 
 # Atenciones Prolongados
 st.header("Atenciones Prolongadas")
