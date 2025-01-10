@@ -220,7 +220,7 @@ st.header("Atenciones Prolongadas")
 
 # Input para observaciones de atenciones prolongadas
 prolongados = {}
-prolongados["prolongadas_24"] = st.text_area("Observaciones Prolongadas", "")
+prolongados["prolongadas"] = st.text_area("Observaciones Prolongadas", "")
 
 # Botón para calcular atenciones prolongadas
 if st.button("Calcular Atenciones Prolongadas"):
