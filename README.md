@@ -13,3 +13,9 @@ Por otro lado, quizas sea conveniente hacerlo con el csv para poder identificar 
 --------------------------
 Con base en Streamlit, genere una app donde se puede copiar y pegar la columna del excel donde se lleva registro de las atenciones. Luego pulsando el boton de calcular atenciones muestra la tabla y grafico.
 
+
+____   ver despues 
+
+https://medium.com/@hdezfloresmiguelangel/implementando-un-corrector-ortogr%C3%A1fico-en-python-utilizando-la-distancia-de-levenshtein-498ec0dd1105
+
+
