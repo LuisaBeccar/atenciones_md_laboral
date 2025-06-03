@@ -188,9 +188,11 @@ st.header("Atenciones Mensuales")
 
 # Inputs para observaciones mensuales
 periodos = {}
-for mes in ["Enero-Febrero 2024", "Febrero-Marzo 2024", "Marzo-Abril 2024", "Abril-Mayo 2024", "Mayo-Junio 2024", "Junio-Julio 2024",
-            "Julio-Agosto 2024", "Agosto-Septiembre 2024", "Septiembre Octubre 2024", "Octubre-Noviembre 2024", "Noviembre-Diciembre 2024", 
-            "Diciembre 2024 - Enero 2025", "Enero-Febrero 2025", "Febrero-Marzo 2025" ]:
+for mes in ["Enero-Febrero 2025", "Febrero-Marzo 2025", "Marzo-Abril 2025", "Abril-Mayo 2025", "Mayo-Junio 2025"
+            #"Junio-Julio 2024",
+            #"Julio-Agosto 2024", "Agosto-Septiembre 2024", "Septiembre Octubre 2024", "Octubre-Noviembre 2024", "Noviembre-Diciembre 2024", 
+            #"Diciembre 2024 - Enero 2025", "Enero-Febrero 2025", "Febrero-Marzo 2025" 
+           ]:
     periodos[mes] = st.text_area(f"Observaciones para {mes}", "")
 
 # Botón para calcular las atenciones
